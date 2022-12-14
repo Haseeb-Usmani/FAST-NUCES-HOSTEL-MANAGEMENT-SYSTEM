@@ -68,9 +68,9 @@
             // 
             this.button1.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Navy;
-            this.button1.Location = new System.Drawing.Point(468, 298);
+            this.button1.Location = new System.Drawing.Point(476, 298);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(79, 33);
+            this.button1.Size = new System.Drawing.Size(66, 33);
             this.button1.TabIndex = 12;
             this.button1.Text = "Login";
             this.button1.UseVisualStyleBackColor = true;

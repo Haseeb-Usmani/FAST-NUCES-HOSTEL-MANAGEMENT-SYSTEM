@@ -40,7 +40,7 @@ namespace HMS
             int num = rnd.Next(1000, 2000);
             con.Open();
             OracleCommand insertEmp = con.CreateCommand();
-            insertEmp.CommandText = "INSERT INTO student VALUES(\'" + maskedTextBox1.Text.ToString() + "\',\'" + textBox1.Text.ToString() + "\',\'" + textBox2.Text.ToString() + "\',\'" + maskedTextBox3.Text.ToString() + "\'," + textBox6.Text.ToString() + ",\'" + maskedTextBox2.Text.ToString() + "\',\'" + textBox7.Text.ToString() + "\',\'" + hall + "\',\'" + sizee + "\'," + num + ")";
+            insertEmp.CommandText = "INSERT INTO student VALUES(\'" + maskedTextBox1.Text.ToString() + "\',\'" + textBox1.Text.ToString() + "\',\'" + textBox2.Text.ToString() + "\',\'" + maskedTextBox3.Text.ToString() + "\'," + textBox6.Text.ToString() + ",\'" + maskedTextBox2.Text.ToString() + "\',\'" + textBox7.Text.ToString() + "\',\'" + hall + "\',\'" + sizee + "\'," + num + ",\'" + textBox3.Text.ToString() + "\')";
             insertEmp.CommandType = CommandType.Text;
             int rows = insertEmp.ExecuteNonQuery();
             if (rows > 0)

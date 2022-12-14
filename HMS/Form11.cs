@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using Oracle.ManagedDataAccess.Client;
 
 
+
 namespace HMS
 {
     public partial class Form11 : Form
@@ -21,7 +22,7 @@ namespace HMS
         string str;
         DataTable dt;
         int RowCount;
-        string pss;
+        //string pss;
         public Form11()
         {
             InitializeComponent();
@@ -29,7 +30,7 @@ namespace HMS
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+
             string UserName = maskedTextBox1.Text.Trim();
             string Password = maskedTextBox2.Text.Trim();
             //OracleConnection con;
@@ -52,8 +53,8 @@ namespace HMS
                     this.Hide();
                     fm.Show();
                     id = UserName;
-                   // pss = Password;
-                    
+                    // pss = Password;
+
                     break;
                 }
                 else
@@ -94,5 +95,7 @@ namespace HMS
         {
 
         }
+
+        
     }
 }

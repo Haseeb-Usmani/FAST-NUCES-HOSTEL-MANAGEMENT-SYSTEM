@@ -109,5 +109,12 @@ namespace HMS
             dataGridView1.DataSource = empDT;
             con.Close();
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Form14 fm = new Form14();
+            this.Hide();
+            fm.Show();
+        }
     }
 }
