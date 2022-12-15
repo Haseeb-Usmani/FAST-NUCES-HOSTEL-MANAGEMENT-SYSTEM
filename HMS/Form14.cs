@@ -43,7 +43,7 @@ namespace HMS
                 Password = dt.Rows[i]["Password"].ToString();
                 if (UserName == Form11.id && Password == maskedTextBox1.Text)
                 {
-                    if (maskedTextBox2.Text == maskedTextBox3.Text)
+                    if (maskedTextBox2.Text == maskedTextBox3.Text && maskedTextBox2.Text.ToString() != "") 
                     {
                         OracleCommand insertEmp = con.CreateCommand();
                         insertEmp.CommandText = "UPDATE STUDENT SET password = \'" + maskedTextBox3.Text.ToString() + "\' where sid = \'" + Form11.id + "\'";

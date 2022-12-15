@@ -47,6 +47,8 @@
             this.label7 = new System.Windows.Forms.Label();
             this.button9 = new System.Windows.Forms.Button();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.button10 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -55,11 +57,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("News706 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Calibri", 13F, System.Drawing.FontStyle.Bold);
             this.button1.Location = new System.Drawing.Point(10, 169);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(114, 35);
@@ -70,7 +73,7 @@
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("News706 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Calibri", 13F, System.Drawing.FontStyle.Bold);
             this.button2.Location = new System.Drawing.Point(458, 169);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(103, 35);
@@ -81,7 +84,7 @@
             // 
             // button3
             // 
-            this.button3.Font = new System.Drawing.Font("News706 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Font = new System.Drawing.Font("Calibri", 13F, System.Drawing.FontStyle.Bold);
             this.button3.Location = new System.Drawing.Point(357, 169);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(95, 35);
@@ -92,7 +95,7 @@
             // 
             // button4
             // 
-            this.button4.Font = new System.Drawing.Font("News706 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Font = new System.Drawing.Font("Calibri", 13F, System.Drawing.FontStyle.Bold);
             this.button4.Location = new System.Drawing.Point(256, 169);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(95, 35);
@@ -103,7 +106,7 @@
             // 
             // button5
             // 
-            this.button5.Font = new System.Drawing.Font("News706 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Font = new System.Drawing.Font("Calibri", 13F, System.Drawing.FontStyle.Bold);
             this.button5.Location = new System.Drawing.Point(130, 169);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(120, 35);
@@ -114,7 +117,7 @@
             // 
             // button6
             // 
-            this.button6.Font = new System.Drawing.Font("News706 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Font = new System.Drawing.Font("Calibri", 13F, System.Drawing.FontStyle.Bold);
             this.button6.Location = new System.Drawing.Point(567, 169);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(115, 35);
@@ -125,7 +128,7 @@
             // 
             // button7
             // 
-            this.button7.Font = new System.Drawing.Font("News706 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Font = new System.Drawing.Font("Calibri", 13F, System.Drawing.FontStyle.Bold);
             this.button7.Location = new System.Drawing.Point(688, 169);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(96, 35);
@@ -206,8 +209,8 @@
             // 
             // button8
             // 
-            this.button8.Font = new System.Drawing.Font("News706 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(790, 264);
+            this.button8.Font = new System.Drawing.Font("Calibri", 13F, System.Drawing.FontStyle.Bold);
+            this.button8.Location = new System.Drawing.Point(907, 247);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(96, 35);
             this.button8.TabIndex = 14;
@@ -218,18 +221,18 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("News706 BT", 28F, System.Drawing.FontStyle.Bold);
+            this.label7.Font = new System.Drawing.Font("Calisto MT", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.DarkBlue;
-            this.label7.Location = new System.Drawing.Point(362, 9);
+            this.label7.Location = new System.Drawing.Point(400, 9);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(199, 46);
+            this.label7.Size = new System.Drawing.Size(247, 54);
             this.label7.TabIndex = 18;
             this.label7.Text = "ROOMSY";
             this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // button9
             // 
-            this.button9.Font = new System.Drawing.Font("News706 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.Font = new System.Drawing.Font("Calibri", 13F, System.Drawing.FontStyle.Bold);
             this.button9.Location = new System.Drawing.Point(790, 169);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(105, 35);
@@ -248,11 +251,34 @@
             this.pictureBox8.TabIndex = 20;
             this.pictureBox8.TabStop = false;
             // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+            this.pictureBox9.Location = new System.Drawing.Point(921, 102);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(64, 59);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 22;
+            this.pictureBox9.TabStop = false;
+            // 
+            // button10
+            // 
+            this.button10.Font = new System.Drawing.Font("Calibri", 13F, System.Drawing.FontStyle.Bold);
+            this.button10.Location = new System.Drawing.Point(898, 168);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(105, 35);
+            this.button10.TabIndex = 21;
+            this.button10.Text = "Backup";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(898, 302);
+            this.ClientSize = new System.Drawing.Size(1008, 296);
+            this.Controls.Add(this.pictureBox9);
+            this.Controls.Add(this.button10);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.label7);
@@ -282,6 +308,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -307,5 +334,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.Button button10;
     }
 }

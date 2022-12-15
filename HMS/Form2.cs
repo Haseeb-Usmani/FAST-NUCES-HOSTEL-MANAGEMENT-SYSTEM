@@ -92,5 +92,12 @@ namespace HMS
         {
 
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            Form16 fm = new Form16();
+            this.Hide();
+            fm.Show();
+        }
     }
 }

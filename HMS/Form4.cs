@@ -141,6 +141,8 @@ namespace HMS
             if (rows > 0)
                 MessageBox.Show("Building Info UPDATED Successfully!");
             con.Close();
+
+            MessageBox.Show("TRIGGER FIRED!  --->> BACK UP Saved!");
         }
 
         private void button3_Click(object sender, EventArgs e)
